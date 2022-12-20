@@ -1,0 +1,33 @@
+{
+  "name": "superteam-server",
+  "version": "0.0.2",
+  "type": "module",
+  "engines": {
+    "node": "16.x",
+    "npm": "8.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "prettify": "npx prettier --write './**/*.js'",
+    "dev": "nodemon"
+  },
+  "dependencies": {
+    "airtable": "^0.11.4",
+    "algoliasearch": "^4.14.2",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-rate-limit": "^6.6.0",
+    "lodash": "^4.17.21",
+    "luxon": "^3.0.3",
+    "morgan": "^1.10.0",
+    "morgan-body": "^2.6.8",
+    "mysql2": "^2.3.3",
+    "node-fetch": "^3.2.10",
+    "twitter-lite": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1"
+  }
+}

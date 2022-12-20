@@ -1,0 +1,6 @@
+# node
+node_modules/
+
+# Generated files
+.session.json
+post.json
